@@ -87,6 +87,7 @@ forecast = prophet_model.predict(future)
 ```
 ## Screenshots 
 ![Annual Rainfall Trend](charts/plot1.png)
+
 ## Result Interpretation & Insights
 - Rainfall Trends: High year-to-year variability, with the monsoon (~890 mm) as the primary contributor.
 - Climate Impact: A slight post-1960 decline, with extreme drought (2002, 2009) and wet years (1917, 1990).
@@ -94,23 +95,10 @@ forecast = prophet_model.predict(future)
 - Clustering Patterns: Increasing dry years suggest shifting rainfall dynamics.
 - Forecasting: Prophet predicts a slight decline, highlighting the need for adaptive water management.
 
-## Installation & Usage
-### 1.Clone the repository:
-```
-git clone https://github.com/your-repo/rainfall-analysis.git
-cd rainfall-analysi
-```
-### 2.Install dependencies:
-```python
-pip install -r requirements.txt
-```
-
 ## Contributing
-
 Contributions are always welcome!
 
 
 
-## License
-This project is licensed under the [MIT License](LICENSE)
+
 
