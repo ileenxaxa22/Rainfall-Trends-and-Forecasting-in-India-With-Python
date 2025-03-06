@@ -85,7 +85,7 @@ prophet_model.fit(prophet_data)
 future = prophet_model.make_future_dataframe(periods=20, freq='YE')
 forecast = prophet_model.predict(future)
 ```
-##Screenshots
+## Screenshots 
 ![Annual Rainfall Trend](charts/plot1.png)
 ## Result Interpretation & Insights
 - Rainfall Trends: High year-to-year variability, with the monsoon (~890 mm) as the primary contributor.
