@@ -87,6 +87,14 @@ forecast = prophet_model.predict(future)
 ```
 ## Screenshots 
 ![Annual Rainfall Trend](charts/plot1.png)
+![Avg Monthly Rainfall](charts/plot2.png)
+![Seasonal distribution](charts/plot3.png)
+![Impact of Climate Change](charts/plot4.png)
+![Annual Anomalies](charts/plot5.png)
+![Monthly Anomalies](charts/plot6.png)
+![Correlation](charts/plot7.png)
+![Category](charts/plot8.png)
+![Forecasting](charts/plot9.png)
 
 ## Result Interpretation & Insights
 - Rainfall Trends: High year-to-year variability, with the monsoon (~890 mm) as the primary contributor.
